@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		373AA4B126EF6F78007A556C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA4B026EF6F78007A556C /* AppDelegate.swift */; };
 		373AA4B326EF6F78007A556C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA4B226EF6F78007A556C /* SceneDelegate.swift */; };
-		373AA4B526EF6F78007A556C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA4B426EF6F78007A556C /* ViewController.swift */; };
-		373AA4B826EF6F78007A556C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373AA4B626EF6F78007A556C /* Main.storyboard */; };
+		373AA4B526EF6F78007A556C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA4B426EF6F78007A556C /* SignUpViewController.swift */; };
 		373AA4BA26EF6F7B007A556C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373AA4B926EF6F7B007A556C /* Assets.xcassets */; };
-		373AA4BD26EF6F7B007A556C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373AA4BB26EF6F7B007A556C /* LaunchScreen.storyboard */; };
+		373AA4C526EF73CD007A556C /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA4C426EF73CD007A556C /* Variable.swift */; };
+		373AA4C726EF7EC7007A556C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373AA4C626EF7EC7007A556C /* LaunchScreen.storyboard */; };
+		373AA4C926F05712007A556C /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA4C826F05712007A556C /* UIViewControllerExtensions.swift */; };
+		373AA4CB26F05756007A556C /* Other Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA4CA26F05756007A556C /* Other Extentions.swift */; };
+		373AA4CE26F0B9E4007A556C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA4CD26F0B9E4007A556C /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		373AA4AD26EF6F78007A556C /* SignInFrames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInFrames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		373AA4B026EF6F78007A556C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		373AA4B226EF6F78007A556C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		373AA4B426EF6F78007A556C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		373AA4B726EF6F78007A556C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		373AA4B426EF6F78007A556C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		373AA4B926EF6F7B007A556C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		373AA4BC26EF6F7B007A556C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		373AA4BE26EF6F7B007A556C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373AA4C426EF73CD007A556C /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		373AA4C626EF7EC7007A556C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		373AA4C826F05712007A556C /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		373AA4CA26F05756007A556C /* Other Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Other Extentions.swift"; sourceTree = "<group>"; };
+		373AA4CD26F0B9E4007A556C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		373AA4AF26EF6F78007A556C /* SignInFrames */ = {
 			isa = PBXGroup;
 			children = (
+				373AA4CC26F0B9C7007A556C /* SignUpScreen */,
+				373AA4C826F05712007A556C /* UIViewControllerExtensions.swift */,
+				373AA4CA26F05756007A556C /* Other Extentions.swift */,
+				373AA4B926EF6F7B007A556C /* Assets.xcassets */,
 				373AA4B026EF6F78007A556C /* AppDelegate.swift */,
 				373AA4B226EF6F78007A556C /* SceneDelegate.swift */,
-				373AA4B426EF6F78007A556C /* ViewController.swift */,
-				373AA4B626EF6F78007A556C /* Main.storyboard */,
-				373AA4B926EF6F7B007A556C /* Assets.xcassets */,
-				373AA4BB26EF6F7B007A556C /* LaunchScreen.storyboard */,
+				373AA4C626EF7EC7007A556C /* LaunchScreen.storyboard */,
 				373AA4BE26EF6F7B007A556C /* Info.plist */,
+				373AA4C426EF73CD007A556C /* Variable.swift */,
 			);
 			path = SignInFrames;
+			sourceTree = "<group>";
+		};
+		373AA4CC26F0B9C7007A556C /* SignUpScreen */ = {
+			isa = PBXGroup;
+			children = (
+				373AA4B426EF6F78007A556C /* SignUpViewController.swift */,
+				373AA4CD26F0B9E4007A556C /* SignUpView.swift */,
+			);
+			path = SignUpScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				373AA4BD26EF6F7B007A556C /* LaunchScreen.storyboard in Resources */,
+				373AA4C726EF7EC7007A556C /* LaunchScreen.storyboard in Resources */,
 				373AA4BA26EF6F7B007A556C /* Assets.xcassets in Resources */,
-				373AA4B826EF6F78007A556C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,32 +153,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				373AA4B526EF6F78007A556C /* ViewController.swift in Sources */,
+				373AA4B526EF6F78007A556C /* SignUpViewController.swift in Sources */,
 				373AA4B126EF6F78007A556C /* AppDelegate.swift in Sources */,
+				373AA4C926F05712007A556C /* UIViewControllerExtensions.swift in Sources */,
+				373AA4CE26F0B9E4007A556C /* SignUpView.swift in Sources */,
+				373AA4CB26F05756007A556C /* Other Extentions.swift in Sources */,
 				373AA4B326EF6F78007A556C /* SceneDelegate.swift in Sources */,
+				373AA4C526EF73CD007A556C /* Variable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		373AA4B626EF6F78007A556C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				373AA4B726EF6F78007A556C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		373AA4BB26EF6F7B007A556C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				373AA4BC26EF6F7B007A556C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		373AA4BF26EF6F7B007A556C /* Debug */ = {
